@@ -33,6 +33,13 @@ body {
 	line-height: 1;
 }
 
+.column {
+/*  background-color: red;*/
+  width: 25%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+  position: relative; /* If you want text inside of it */
+}
+
 ol, ul {
 	list-style: none;
 }
